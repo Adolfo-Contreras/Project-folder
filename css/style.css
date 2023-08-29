@@ -16,9 +16,10 @@ body{width: 100%;height: 100%;}
 .logo{
     height: 100%;
 }
-#contentHolder{
+.contentHolder{
     width: 100%;
     height: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 nav{
     display: inline-flex;
@@ -32,6 +33,9 @@ nav>a{
     font-size: 150%;
     margin: 0px 10px;
 }
+nav>a:hover{
+    text-decoration: underline;
+}
 #homePage{
     background-image: url(/images/hero-image.jpg);
     height: 100%;
@@ -41,7 +45,7 @@ nav>a{
     align-items: flex-end;
     justify-content: center;
 }
-#homePage>p{
+#homePage>p,#recipeHomePage>p{
     background-color: white;
     display: inline-block;
     height: fit-content;
@@ -109,12 +113,72 @@ footer{
     width: 100%;
     display: flex;
     background-color: #f1a536;
-    height: 15%;
+    height: 12%;
     align-items: center;
     justify-content: space-around;
-    gap: 50%;
+    gap: 41%;
+}
+footer a,footer span{
+    font-size: 12pt;
+    font-weight: 50;
 }
 .copyright{
 display: inline-block;
-width: 122px;
+width: 150px;
 }
+
+
+/* stuff for the burger */
+#recipeHomePage{
+    background-image: url(/images/bengal-burger.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.recipeTime{
+    background-color: #DADFEA;
+    padding: 30px;
+}
+.recipeInfo>div{
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.recipeInfo>div:last-of-type{
+    justify-content:flex-start;
+}
+.recipeInfo{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.recipeTime h3{
+    font-size: 26pt;
+}
+.recipeInfo h4{
+    font-size: 14pt;
+}
+.recipeTime span{
+    font-weight: 100;
+}
+.recipeDoc{
+    width: 90%;
+    margin: 0 auto;
+}
+.review span{
+    color: #A63223;
+}
+.recipeSave button{
+    background-color: #A63223;
+    border-radius: 10px;
+    color: #fff;
+}
+/* .recipeSave span{
+    border-radius: 100%;
+    border: 1px black solid;
+    padding: 9px;
+    text-align: center;
+} */
