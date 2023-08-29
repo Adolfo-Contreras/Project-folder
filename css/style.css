@@ -87,7 +87,7 @@ nav>a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 26pt;
+    font-size: 20pt;
     height: 10%;
 }
 .foodInfo:nth-child(even){
@@ -101,4 +101,20 @@ nav>a{
 }
 .foodInfo:nth-child(even)>.foodImg p{
     background-color: #fff;
+}
+.foodInfo:last-of-type img{
+    border: 5px #DADFEA solid;
+}
+footer{
+    width: 100%;
+    display: flex;
+    background-color: #f1a536;
+    height: 15%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50%;
+}
+.copyright{
+display: inline-block;
+width: 122px;
 }
