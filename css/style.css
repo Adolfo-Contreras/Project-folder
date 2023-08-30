@@ -109,6 +109,9 @@ nav>a:hover{
 .foodInfo:last-of-type img{
     border: 5px #DADFEA solid;
 }
+.foodInfo:last-of-type{
+    margin-bottom: 5%;
+}
 footer{
     width: 100%;
     display: flex;
@@ -194,5 +197,22 @@ width: 150px;
 }
 .recipeDoc{
     display: flex;
-    
+}
+.ingredients{
+    flex-grow: 2;
+}
+.cookDirect{
+    width: 50%;
+}
+li{
+    font-size: 20pt;
+}
+ol>h4,ul>h4{
+    font-size: 21pt;
+}
+ol>li{
+    margin: 20px 0px;
+}
+ol{
+    margin-bottom: 25%;
 }
