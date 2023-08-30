@@ -1,4 +1,4 @@
-html,body,nav,a,h1,footer,h2,h3,h4,span,div,img,p{
+html,body,nav,a,h1,footer,h2,h3,h4,h5,span,div,img,p,button{
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -164,20 +164,35 @@ width: 150px;
 .recipeTime span{
     font-weight: 100;
 }
-.recipeDoc{
+.recipeContainer{
     width: 90%;
     margin: 0 auto;
 }
-.review span{
+.review{
+    text-align: center;
+    font-size: 20pt;
+}
+.review .stars{
     color: #A63223;
 }
 .recipeSave button{
     background-color: #A63223;
     border-radius: 10px;
     color: #fff;
+    padding: 10px;
 }
 .recipeName h1{
     font-size: 55pt;
     text-align: center;
     /* padding: 15px; */
+}
+.recipeHook{
+    background-color: #DADFEA;
+    font-size: 30pt;
+    font-weight: 900;
+    padding: 5%;
+}
+.recipeDoc{
+    display: flex;
+    
 }
