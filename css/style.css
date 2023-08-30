@@ -176,9 +176,8 @@ width: 150px;
     border-radius: 10px;
     color: #fff;
 }
-/* .recipeSave span{
-    border-radius: 100%;
-    border: 1px black solid;
-    padding: 9px;
+.recipeName h1{
+    font-size: 55pt;
     text-align: center;
-} */
+    /* padding: 15px; */
+}
